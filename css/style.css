@@ -1,25 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
-main{
+main {
     margin: 1em 0;
     text-align: center;
 }
 
-.presentacion{
+.presentacion {
     text-align: center;
-    img{
+    img {
         width: 50%;
         height: 50%;
     }
 }
 
-.nav-ul{
+.nav-ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    list-style-type: none;
+}
+
+.dropdown-divider:hover{
+    .dropdown-menu{
+        display: block;
+    }
+}
+
+.dropdown-menu {
+    display: none;
+    background-color: greenyellow;
+    li{
+        padding: 0.5em 1em;
+        border: 1px solid gray;
+    }
 }
