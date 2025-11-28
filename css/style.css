@@ -4,11 +4,21 @@
     box-sizing: border-box;
 }
 
-header{
+main{
     margin: 1em 0;
     text-align: center;
 }
 
-figure{
+.presentacion{
     text-align: center;
+    img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
