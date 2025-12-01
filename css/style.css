@@ -10,13 +10,22 @@ main {
     text-align: center;
 }
 
+.horario,
+td,
+tr {
+    background-color: rgb(253, 136, 94);
+    border: #000000 solid;
+    border-collapse: collapse;
+    padding: 1em;
+}
+
 .presentacion {
     text-align: center;
     img {
         width: 50%;
         height: 50%;
     }
-} 
+}
 
 .nav-ul {
     display: flex;
@@ -24,8 +33,8 @@ main {
     justify-content: space-evenly;
 }
 
-.dropdown-divider:hover{
-    .dropdown-menu{
+.dropdown-divider:hover {
+    .dropdown-menu {
         display: block;
     }
 }
@@ -33,7 +42,7 @@ main {
 .dropdown-menu {
     display: none;
     background-color: greenyellow;
-    li{
+    li {
         padding: 0.5em 1em;
         border: 1px solid gray;
     }
