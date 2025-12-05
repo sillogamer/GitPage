@@ -51,3 +51,34 @@ tr {
         border: 1px solid gray;
     }
 }
+
+
+.meowCam {
+    width: 992px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.meowFrame {
+    position: absolute;
+    width: 1280px;
+    height: 1200px;
+    top: -330px;
+    left: -273px;
+}
+
+.Catmario {
+    width: 992px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.catFrame {
+    position: absolute;
+    
+    width: 600px;
+    height: 600px;
+    top: -100px;
+}
